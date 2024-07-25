@@ -11,8 +11,7 @@ on:
   workflow_dispatch:
 
 env:
-  STARTUP_COMMAND: python3 src/main.py
-
+  STARTUP_COMMAND: 'python3 src/main.py'
 jobs:
   build:
     runs-on: ubuntu-latest
